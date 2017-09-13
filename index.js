@@ -3,6 +3,7 @@ var kittens = ["Milo", "Otis", "Garfield"]
 
 function appendKitten(name) {
   var akittens = [...kittens, name]
+  return akittens
 }
 
 function destructivelyAppendKitten(element) {
