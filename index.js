@@ -2,7 +2,7 @@ const app = "I don't do much."
 var kittens = ["Milo", "Otis", "Garfield"]
 
 function destructivelyAppendKitten(element) {
-  dakittens = kittens.push(element)
+  kittens.push(element)
 }
 
 function destructivelyPrependKitten(element) {
