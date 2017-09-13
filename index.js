@@ -18,16 +18,16 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(element) {
-  akittens = [...kittens, element]
+  var akittens = [...kittens, element]
 }
 
 function prependKitten(element) {
-  pkittens = [element, ...kittens]
+  var pkittens = [element, ...kittens]
 }
 
 function removeLastKitten() {
-  rlkittens = kittens.slice(-(kittens.length - 1))
+  var rlkittens = kittens.slice(-(kittens.length - 1))
 }
 function removeFirstKitten() {
-  rfkittens = kittens.slice(1)
+  var rfkittens = kittens.slice(1)
 }
