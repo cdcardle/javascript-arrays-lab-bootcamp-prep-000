@@ -1,6 +1,10 @@
 const app = "I don't do much."
 var kittens = ["Milo", "Otis", "Garfield"]
 
+function appendKitten(name) {
+  akitten = [...kittens, name]
+}
+
 function destructivelyAppendKitten(element) {
   kittens.push(element)
 }
@@ -15,10 +19,6 @@ function destructivelyRemoveLastKitten() {
 
 function destructivelyRemoveFirstKitten() {
   kittens.shift()
-}
-
-function appendKitten(name) {
-  akitten = [...kittens, name]
 }
 
 function prependKitten(name) {
